@@ -19,3 +19,6 @@ naveigate to conf folder
 Now run the test with:
 
 protractor PROD_AUS_conf.js
+similarly if you want to run from some other conf file ,change file name.
+
+if you want to paramaterize baseURL, use command => protractor PROD_AUS_conf.js --baseUrl=https://www.ratemyagent.com.au/
